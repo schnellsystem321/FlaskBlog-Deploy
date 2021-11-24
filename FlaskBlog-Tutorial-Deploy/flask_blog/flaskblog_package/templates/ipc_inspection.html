@@ -1,0 +1,61 @@
+{% extends 'layout.html' %}
+{% block content %}
+    
+    <article class="media content-section">
+                <div class="article-metadata">
+                            <div class="media">
+                                <img class="rounded-circle" src="static/profile_pic/run job.png">
+                                <img class="rounded-circle" src="static/profile_pic/add job.png">
+                                <img class="rounded-circle" src="static/profile_pic/job management.png">
+                                <img class="rounded-circle" src="static/profile_pic/edit job.png">
+                            </div>  
+                </div>
+                <div class="media-body">
+                    <div class="article-metadata ">                                                     
+                            <a class="mr-2" href="{{url_for('ipc_inspection')}}">Run Job</a>                              
+                            <a class="mr-2" href="#">Add Job</a> 
+                            <a class="mr-2" href="#">Job Management</a>                
+                             <a class="mr-2" href="#">Edit Job</a>                        
+                    </div>
+                </div>
+                    
+    </article>
+    
+    <article class="media content-section">     
+                <div class="article-metadata">
+                            <div class="media">
+                                <img class="rounded-circle" src="static/profile_pic/user management.png">
+                                <img class="rounded-circle" src="static/profile_pic/logout user.png">
+                                <img class="rounded-circle" src="static/profile_pic/change password.png">
+                                <img class="rounded-circle" src="static/profile_pic/my information.png">
+                            </div>  
+                </div>           
+                <div class="media-body">
+                    <div class="article-metadata ">
+                        <a class="mr-2" href="#">User Manaagement</a>                
+                        <a class="mr-2" href="#">Logout User</a>                
+                        <a class="mr-2" href="#">Change Password</a>                
+                        <a class="mr-2" href="#"> My Information</a>                
+                    </div>
+                </div>
+    </article>
+    <article class="media content-section">
+                 <div class="article-metadata">
+                            <div class="media">
+                                <img class="rounded-circle" src="static/profile_pic/report.png">
+                                <img class="rounded-circle" src="static/profile_pic/preferences.png">
+                                <img class="rounded-circle" src="static/profile_pic/harware control.png">
+                                <img class="rounded-circle" src="static/profile_pic/about.png">
+                            </div>  
+                </div>           
+                <div class="media-body">
+                    <div class="article-metadata ">
+                        <a class="mr-2" href="#">Report</a>                
+                        <a class="mr-2" href="#">Preference</a>                
+                        <a class="mr-2" href="#">Harware Control</a>                
+                        <a class="mr-2" href="#">About</a>                
+                    </div>                
+                </div>
+    </article>
+                
+{% endblock content %}
